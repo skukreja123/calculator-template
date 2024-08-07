@@ -12,6 +12,172 @@
     <link rel="icon" type="image/png" sizes="32x32" href="//d26tpo4cm8sb6k.cloudfront.net/icon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="//d26tpo4cm8sb6k.cloudfront.net/icon-16x16.png">
     <link rel="manifest" href="/manifest.json">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        #main {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        #left {
+            width: 60%;
+            padding-right: 20px;
+        }
+        
+        #right {
+            width: 30%;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+        
+        .cinfoT {
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        .cinfoHd {
+            font-weight: bold;
+            background-color: #f2f2f2;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        .cinfoHdL {
+            font-weight: bold;
+            background-color: #f2f2f2;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        .inlongest {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        #bluebtn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        #bluebtn:hover {
+            background-color: #0056b3;
+        }
+        
+        #searchbox {
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        #searchbox input {
+            width: calc(100% - 60px);
+            padding: 10px;
+        }
+        
+        #calcSearchOut {
+            margin-top: 10px;
+        }
+        
+        #othercalc {
+            margin-top: 20px;
+        }
+        
+        #octitle {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        #occontent, #ocother {
+            margin-bottom: 10px;
+        }
+        
+        #occontent a, #ocother a {
+            display: block;
+            color: #007BFF;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+        
+        #occontent a:hover, #ocother a:hover {
+            text-decoration: underline;
+        }
+        
+        #footer {
+            background-color: #f2f2f2;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+        
+        #footerin {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        #footernav a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        #footernav a:hover {
+            text-decoration: underline;
+        }
+        
+        .topNavAbs {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .topNavAbs a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        
+        .topNavAbs a:hover {
+            text-decoration: underline;
+        }
+        
+        .topNavOn {
+            font-weight: bold;
+        }
+        
+    </style>
 </head>
 
 <body>
