@@ -14,6 +14,128 @@
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="/css/sci.css" />
     <script src="//d26tpo4cm8sb6k.cloudfront.net/js/scientific3.js" async></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        #headerout {
+            background-color: #4CAF50;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        #logo img {
+            width: 208px;
+            height: 22px;
+        }
+        
+        #contentout {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        #content {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 900px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        #sciout {
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        #sciInPut, #sciOutPut {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: right;
+            font-size: 18px;
+        }
+        
+        .scifunc, .scinm, .sciop, .scieq {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            margin: 5px;
+            display: inline-block;
+            text-align: center;
+            width: 40px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .scifunc:hover, .scinm:hover, .sciop:hover, .scieq:hover {
+            background-color: #45a049;
+        }
+        
+        #footer {
+            background-color: #4CAF50;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+            margin-top: 20px;
+        }
+        
+        #footernav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        #footernav a:hover {
+            text-decoration: underline;
+        }
+        
+        .topNavAbs {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 10px;
+        }
+        
+        .topNavAbs a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        .topNavAbs a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            #contentout {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        
+    </style>
 </head>
 
 <body>
